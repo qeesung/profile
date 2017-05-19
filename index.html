@@ -1,0 +1,133 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>Resume</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Raleway:500,200,700" rel="stylesheet">
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+
+<link href="https://unpkg.com/material-resume@1.0.1/resume.min.css" rel="stylesheet">
+<script src="https://unpkg.com/material-resume@1.0.1/resume.min.js"></script>
+
+</head><body ng-app="Resume" ng-cloak="">
+    <resume>
+        <resume-heading first-name="秦世成" github="qeesung" email="qeesung@live.com" phone="13119576774">
+        </resume-heading>
+        <resume-body>
+            <resume-column flex="20">
+                <sidebar-category name="教育">
+                    <p>广州华南理工大学</p>
+                    <p>自动化专业 本科</p>
+                    <p>毕业于2015年</p>
+                </sidebar-category>
+                <sidebar-category name="个人网址">
+                    <p> <a href="https://github.com/qeesung">Github</a> </p>
+                    <p> <a href="http://stackoverflow.com/users/4779765/sung-qee">StackoverFlow</a></p>
+                    <p> <a href="https://segmentfault.com/u/qeesung">SegmentFault</a></p>
+                    <p> <a href="http://blog.csdn.net/ii1245712564">CSDN blog</a></p>
+                </sidebar-category>
+                <sidebar-category name="Coursework">
+                    <p>Data Structures</p>
+                    <p>Algorithms</p>
+                    <p>Programmings Langauges</p>
+                    <p>Operating Systems</p>
+                    <p>Distributed Systems</p>
+                    <p>Discrete Math</p>
+                </sidebar-category>
+            </resume-column>
+            <resume-column flex="80">
+                <category name="技能">
+                    <category-item title="后端服务开发">
+                        <li>
+                            <strong>NodeJs</strong>
+                            <ul>
+                                <li>有若干Nodejs项目开发经验, 基础扎实</li>
+                                <li>熟悉Nodejs异步原理以及模块开发,模块
+                                     <a href="http://github.com/qeesung/rocketchat-node">rocketchat</a>作者
+                                </li>
+                                <li>熟悉Nodejs的流行框架模块ExpressJs,KoaJs,Swagger-Node,Bluebird等</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Java</strong> 
+                            <ul>
+                                <li>能够熟练运用Java编写程序，Java基础扎实</li>                                
+                                <li>熟悉Java设计模式，算法及数据结构</li>
+                            </ul>
+                        </li>
+                        <li><strong>Python</strong>
+                            <ul>
+                                <li>Python基础扎实，能够熟练使用，编写Python模块</li>
+                                <li>熟悉Python异步编程，多线程编程</li>
+                                <li>熟悉Python Flask框架，编写过简单web
+                                    <a href="https://github.com/qeesung/flask-blog-system">博客应用</a>，
+                                    以及为<a href="https://github.com/maxcountryman/flask-login">flask-login</a>插件贡献过源码
+                                </li>
+                            </ul>
+                        </li>
+                        <li><strong>Golang</strong>语言基础扎实，在项目中能够熟练使用, 使用Golang开发过terraform的云Provider,以及命令行工具</li>
+                        <li><strong>C/C++</strong>基础扎实，能够熟练运用，熟悉linux下C语言编程，熟悉数据结构和算法，用其实现过
+                            <i>《算法导论》</i>前十六章的大部份<a href="https://github.com/qeesung/algorithm">代码</a>
+                        </li>
+                    </category-item>
+                    <category-item title="前端页面开发">
+                        <li><strong>Html/CSS/JS</strong>熟悉Html和CSS，JS较为熟练</li>
+                        <li><strong>AngularJs 1.x </strong>
+                        熟悉Angular 1.x，能够编写模块，控制器以及directive等，开发过多个单页应用, 多以Prototype为主</li>
+                        <li><strong>React+Redux</strong>使用React+Redux开发过简单的单页<a href="https://github.com/qeesung/matrix-ui">应用</a>，
+                        能够熟练使用ES6和JSX，多以Protoype为主</li>
+                    </category-item>
+                    <category-item title="运维基础能力">
+                        <li><strong>Linux</strong>能够熟练使用Linux命令行，熟悉Vim，Emacs，Tmux，Fish Shell，Makefile, Shell Script等常用的
+                            的工具，命令娴熟，使用熟练 
+                        </li>
+                        <li><strong>Docker \ K8s \ Swarm \ Vagrant</strong>
+                        能够熟练的使用Docker，能够编写复杂的Dockerfile，以及搭建Registry, 使用多台机器搭建过K8s和Docker Swarm集群服务, 且后期将
+                        docker swarm运用于项目中, 以及能够快速使用Vagrant制作镜像，搭建合适的开发环境</li>
+                        <li><strong>Ansible \ Terraform \ Shell Script \ Python Script</strong>熟练使用CM和orchestration工具，
+                        对多台机器进行provision的配置操作, 还曾开发过个人级别的Ansible配置脚本服务。</li>
+                        <li><strong>Databases</strong> 比较熟悉 Mysql \ mongodb \ Redis </li>
+                    </category-item>
+                </category>
+                <category name="工作经历">
+                    <category-item title="华为技术有限公司" subtitle="2015 - now ">
+                        <li>
+                            软件开发工程师，主要有前端，后端，以及运维部署方面的工作
+                        </li>
+                         <li>
+                            IDE插件开发，java swing为主要开发语言, 开发过Intellij插件
+                        </li>
+                        <li>
+                            Web端开发，ndoejs, golang, python等开发后端，angularjs，html，css,react,redux开发前端
+                        </li>
+                        <li>
+                           后台运维，ansible，terraform, docker swarm, kubernetes,linux来部署管理集群系统
+                        </li>
+
+                    </category-item>
+                </category>
+                <category name="项目工程">
+                    <category-item title="In-It-For-The-Prizes" subtitle="Penn Apps Spring 2016 (Finalist)">
+                        <li>Such and amazing app that did a lot of things</li>
+                        <li>Integrations with Uber, Postmates, Spotify, and Office 365</li>
+                        <li>Written with Ionic Framework and hosted on Kubernetes 😎 for the cred</li>
+                    </category-item>
+                    <category-item title="FoodStash" subtitle="Hophacks Spring 2016 (2nd Place)">
+                        <li>Food-storage-as-a-Service app that lets people put their food in your fridge</li>
+                        <li>All storage and payment in based on the blockchain with Ethereum and Mist</li>
+                    </category-item>
+                    <category-item title="Turnup" subtitle="github.com/tswizzle/turnup">
+                        <li>A new programming language with a focus on developers turning up</li>
+                        <li>Implemented in Go and requires Docker 1.12 with Ceph on CoreOS</li>
+                    </category-item>
+                </category>
+            </resume-column>
+        </resume-body>
+    </resume>
+
+
+</body></html>
