@@ -1,5 +1,5 @@
 # Qeesung personal resume
 
-you can access from [here](http://qeesung.githun.io)
+you can access from [here](http://qeesung.github.io)
 
 
