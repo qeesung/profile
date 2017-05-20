@@ -1,0 +1,25 @@
+{
+  "name": "qeesung-resume",
+  "description": "qeesung resume",
+  "main": "",
+  "authors": [
+    "qeesung"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/qeesung/qeesung.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.3",
+    "angular-animate": "1.5.3",
+    "angular-aria": "1.5.3",
+    "angular-messages": "1.5.3",
+    "angular-material": "1.1.0-rc2",
+    "font-awesome": "4.6.3"
+  }
+}
