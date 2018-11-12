@@ -91,11 +91,15 @@ angular.module('Resume', ['ngMaterial'])
   },
   transclude: true,
   template: `<div class="category">
-    <h5 class="category-title md-body-2">{{r.title}}</h5>&nbsp;
-    <h5 class="category-subtitle md-caption">{{r.subtitle}}</h5>
-    <a ng-if="r.open" ng-href="{{r.url}}" target="_blank">
-       <i class="fa fa-lg fa-github"></i>开源
+    <h5 class="category-title md-body-2">
+    {{r.title}}
+    <a ng-if="r.open" class= ng-href="{{r.url}}" target="_blank" style="color:green">
+       <i class="fa fa-lg fa-osi"></i>开源
     </a>
+    </h5>&nbsp;
+    <h5 class="category-subtitle md-caption">
+    {{r.subtitle}}
+    </h5>
     <ul class="category-bullets" ng-transclude></ul>
   </div>`
 })
