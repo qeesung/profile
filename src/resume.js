@@ -94,7 +94,7 @@ angular.module('Resume', ['ngMaterial'])
     <h5 class="category-title md-body-2">
     {{r.title}}
     <a ng-if="r.open" class= ng-href="{{r.url}}" target="_blank" style="color:#3CB371">
-       <i class="fa fa-lg fa-osi"></i>开源
+       <i class="fa fa-lg fa-github"></i>开源
     </a>
     </h5>&nbsp;
     <h5 class="category-subtitle md-caption">
