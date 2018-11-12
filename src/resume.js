@@ -93,7 +93,7 @@ angular.module('Resume', ['ngMaterial'])
   template: `<div class="category">
     <h5 class="category-title md-body-2">
     {{r.title}}
-    <a ng-if="r.open" class= ng-href="{{r.url}}" target="_blank" style="color:green">
+    <a ng-if="r.open" class= ng-href="{{r.url}}" target="_blank" style="color:#3CB371">
        <i class="fa fa-lg fa-osi"></i>开源
     </a>
     </h5>&nbsp;
