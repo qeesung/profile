@@ -1,189 +1,149 @@
 <!DOCTYPE html><html><head><meta charset="UTF-8">
-<title>Resume</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css">
-<link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-<link href="src/font.css" rel="stylesheet">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78052171-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+		<title>Resume</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css">
+		<link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+		<link href="src/font.css" rel="stylesheet">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78052171-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
 
-  gtag('config', 'UA-78052171-1');
-</script>
+gtag('config', 'UA-78052171-1');
+		</script>
 
-<script src="bower_components/angular/angular.min.js"></script>
-<script src="bower_components/angular-animate/angular-animate.min.js"></script>
-<script src="bower_components/angular-aria/angular-aria.min.js"></script>
-<script src="bower_components/angular-messages/angular-messages.min.js"></script>
-<script src="bower_components/angular-material/angular-material.min.js"></script>
+		<script src="bower_components/angular/angular.min.js"></script>
+		<script src="bower_components/angular-animate/angular-animate.min.js"></script>
+		<script src="bower_components/angular-aria/angular-aria.min.js"></script>
+		<script src="bower_components/angular-messages/angular-messages.min.js"></script>
+		<script src="bower_components/angular-material/angular-material.min.js"></script>
 
-<link href="src/resume.css" rel="stylesheet">
-<script src="src/resume.js"></script>
+		<link href="src/resume.css" rel="stylesheet">
+		<script src="src/resume.js"></script>
 
-</head><body ng-app="Resume" ng-cloak="">
-    <resume>
-        <resume-heading first-name="秦世成" github="qeesung" email="qeesung@live.com" phone="13119576774">
-        </resume-heading>
-        <resume-body>
-            <resume-column flex="20">
-                <sidebar-category name="教育">
-                    <p>广州华南理工大学</p>
-                    <p>自动化专业 本科</p>
-                    <p>毕业于2015年</p>
-                </sidebar-category>
-                <sidebar-category name="个人网址">
-                    <p> <a href="http://qeesung.github.io">Resume</a> </p>
-                    <p> <a href="https://github.com/qeesung">Github</a> </p>
-                    <p> <a href="http://stackoverflow.com/users/4779765/sung-qee">StackoverFlow</a></p>
-                    <p> <a href="https://segmentfault.com/u/qeesung">SegmentFault</a></p>
-                    <p> <a href="http://blog.csdn.net/ii1245712564">CSDN blog</a></p>
-                </sidebar-category>
-                <sidebar-category name="文章">
-                    <p><a href="http://blog.csdn.net/column/details/qeesung-algorithm.html">《算法鸣泣之时》博客专栏</a></p>
-                    <p><a href="https://segmentfault.com/a/1190000005173218">nodejs 异步I/O和事件驱动</a></p>
-                    <p><a href="https://segmentfault.com/a/1190000005129675">nodejs q模块</a></p>
-                    <p><a href="http://blog.csdn.net/ii1245712564/article/details/45420061">贪心算法vs动态规划</a></p>
-                </sidebar-category>
-            </resume-column>
-            <resume-column flex="80">
-                <category name="技能">
-                    <category-item title="后端服务开发">
+	</head><body ng-app="Resume" ng-cloak="">
+		<resume>
+		<resume-heading first-name="秦世成" github="qeesung" email="qeesung@live.com" phone="13119576774">
+		</resume-heading>
+		<resume-body>
+			<resume-column flex="20">
+				<sidebar-category name="教育">
+					<p>广州华南理工大学</p>
+					<p>自动化专业 本科</p>
+					<p>毕业于2015年</p>
+				</sidebar-category>
+				<sidebar-category name="个人网址">
+					<p> <a href="http://qeesung.github.io">Resume</a> </p>
+					<p> <a href="https://github.com/qeesung">Github</a> </p>
+					<p> <a href="http://stackoverflow.com/users/4779765/sung-qee">StackoverFlow</a></p>
+					<p> <a href="https://segmentfault.com/u/qeesung">SegmentFault</a></p>
+					<p> <a href="http://blog.csdn.net/ii1245712564">CSDN blog</a></p>
+				</sidebar-category>
+				<sidebar-category name="文章">
+					<p><a href="http://blog.csdn.net/column/details/qeesung-algorithm.html">《算法鸣泣之时》博客专栏</a></p>
+					<p><a href="https://segmentfault.com/a/1190000005173218">nodejs 异步I/O和事件驱动</a></p>
+					<p><a href="https://segmentfault.com/a/1190000005129675">nodejs q模块</a></p>
+					<p><a href="http://blog.csdn.net/ii1245712564/article/details/45420061">贪心算法vs动态规划</a></p>
+				</sidebar-category>
+			</resume-column>
+			<resume-column flex="80">
+				<category name="技能">
+				<category-item title="Java">
+					<li>能够熟练运用Java编写程序，熟悉多线程编程，Java基础扎实</li>                                
+					<li>熟悉Java设计模式，算法及数据结构</li>
+					<li>熟悉SpringBoot, Netty, Mybatis, Spock等框架，熟练掌握Kafka，RabbitMQ, Redis, Etcd, Zookeepe, MySQL等中间件框架</li>
+					<li>开源项目
+						<a href="https://github.com/qeesung/HighlightBracketPair">HighlightBracketPair</a>,
+						<a href="https://github.com/qeesung/mq-pipeline-notifier-plugin">mq-pipeline-notifier-plugin</a>
+						作者, 开源项目<a href="https://github.com/netty/netty">Netty</a>源码贡献者</li>
+				</category-item> 
+				<category-item title="Golang">
+					<li>语言基础扎实，在项目中能够熟练使用, 使用Golang开发过terraform的云Provider,以及命令行工具</li>
+					<li>开源项目
+						<a href="https://github.com/qeesung/image2ascii">image2ascii</a>,
+						<a href="https://github.com/qeesung/asciiplayer">asciiplayer</a>
+						作者
+					</li>
+				</category-item> 
+				<category-item title="NodeJs">
+					<li>有若干Nodejs项目开发经验, 基础扎实</li>
+					<li>熟悉Nodejs异步原理以及模块开发,开源模块
+						<a href="http://github.com/qeesung/rocketchat-node">rocketchat</a>作者
+					</li>
+					<li>熟悉Nodejs的流行框架模块ExpressJs,KoaJs,Sequelize,Bluebird,Async,co 模块等</li>
+				</category-item> 
+				<category-item title="Python">
+					<li>Python基础扎实，能够熟练使用，编写Python模块</li>
+					<li>熟悉Python异步编程，多线程编程</li>
+					<li>熟悉Python Flask框架，编写过简单web
+						<a href="https://github.com/qeesung/flask-blog-system">博客应用</a>，
+						以及为<a href="https://github.com/maxcountryman/flask-login">flask-login</a>插件贡献过源码
+					</li>
+				</category-item> 
+				<category-item title="Python">
+					<li>能够熟练的使用Linux，Shell Script，熟悉常见的Linux命令行工具</li>
+					<li>熟练掌握Docker \ K8s \ Swarm \ Vagrant \ Terraform \ Ansible等CM和orchestration工具</li>
+					<li>熟练掌握Mysql \ MongdoDB \ Redis \ Kafka \ RabbitMQ \ Etcd \ Zookeeper 等中间件框架</li>
+				</category-item> 
+				</category>
 
-                        <li>
-                            <strong>Java</strong> 
-                            <ul>
-                                <li>能够熟练运用Java编写程序，熟悉多线程编程，Java基础扎实</li>                                
-                                <li>熟悉Java设计模式，算法及数据结构</li>
-                                <li>熟悉Spring, Spirng MVC, SpringBoot, IoC, AOP, Netty, NIO, Maven, Hibernate, Mybatis, JVM等</li>
-                                <li>开源项目
-                                    <a href="https://github.com/qeesung/HighlightBracketPair">HighlightBracketPair</a>,
-                                    <a href="https://github.com/qeesung/mq-pipeline-notifier-plugin">mq-pipeline-notifier-plugin</a>
-                                  作者, 开源项目<a href="https://github.com/netty/netty">Netty</a>源码贡献者</li>
-                            </ul>
-                        </li>
-                        
-                        <li>
-                            <strong>Golang</strong>
-                            <ul>
-                                <li>语言基础扎实，在项目中能够熟练使用, 使用Golang开发过terraform的云Provider,以及命令行工具</li>
-                                <li>开源项目
-                                    <a href="https://github.com/qeesung/image2ascii">image2ascii</a>,
-                                    <a href="https://github.com/qeesung/asciiplayer">asciiplayer</a>
-                                    作者
-                                </li>
-                            </ul>
-                        </li>
-                        
-                        <li>
-                            <strong>NodeJs</strong>
-                            <ul>
-                                <li>有若干Nodejs项目开发经验, 基础扎实</li>
-                                <li>熟悉Nodejs异步原理以及模块开发,开源模块
-                                     <a href="http://github.com/qeesung/rocketchat-node">rocketchat</a>作者
-                                </li>
-                                <li>熟悉Nodejs的流行框架模块ExpressJs,KoaJs,Swagger-Node,Bluebird,Async,co 模块等</li>
-                                <li>熟悉ES6语法，能够熟练运用，熟悉generator，async，await编程</li>
-                            </ul>
-                        </li>
-
-
-                        <li><strong>Python</strong>
-                            <ul>
-                                <li>Python基础扎实，能够熟练使用，编写Python模块</li>
-                                <li>熟悉Python异步编程，多线程编程</li>
-                                <li>熟悉Python Flask框架，编写过简单web
-                                    <a href="https://github.com/qeesung/flask-blog-system">博客应用</a>，
-                                    以及为<a href="https://github.com/maxcountryman/flask-login">flask-login</a>插件贡献过源码
-                                </li>
-                            </ul>
-                        </li>
-                        
-                        <li><strong>C/C++</strong>
-                            <ul>
-                                <li>基础扎实，能够熟练运用，做过C51，ARM等嵌入式程序，半个嵌入式工程师，写过Qt</li>
-                                <li>熟悉Linux/UNIX系统编程，Linux网络编程，熟悉计算机网络，TCP/IP</li>
-                                <li>熟悉数据结构和算法，用其实现过<i>《算法导论》</i>前十六章的大部份<a href="https://github.com/qeesung/algorithm">代码</a></li>
-                            </ul>
-                            
-                        </li>
-                    </category-item>
-                    <category-item title="前端页面开发">
-                        <li><strong>Html/CSS/JS</strong>熟悉Html和CSS，JS较为熟练</li>
-                        <li><strong>AngularJs 1.x </strong>
-                        熟悉Angular 1.x，能够编写模块，控制器以及directive等，开发过多个单页应用, 多以Prototype为主</li>
-                        <li><strong>React+Redux</strong>使用React+Redux开发过简单的单页<a href="https://github.com/qeesung/matrix-ui">应用</a>，
-                        能够熟练使用ES6和JSX，多以Protoype为主</li>
-                    </category-item>
-                    <category-item title="运维基础能力">
-                        <li><strong>Linux</strong>能够熟练使用Linux命令行，熟悉Vim，Emacs，Tmux，Fish Shell，Makefile, Shell Script等常用的
-                            的工具，命令娴熟，使用熟练 
-                        </li>
-                        <li><strong>Docker \ K8s \ Swarm \ Vagrant</strong>
-                        能够熟练的使用Docker，能够编写复杂的Dockerfile，以及搭建Registry, 使用多台机器搭建过K8s和Docker Swarm集群服务, 且后期将
-                        docker swarm运用于项目中, 以及能够快速使用Vagrant制作镜像，搭建合适的开发环境</li>
-                        <li><strong>Ansible \ Terraform \ Shell Script \ Python Script</strong>熟练使用CM和orchestration工具，
-                        对多台机器进行provision的配置操作, 还曾开发过个人级别的Ansible配置脚本服务。</li>
-                        <li><strong>Databases</strong> 比较熟悉 Mysql \ mongodb \ Redis </li>
-                    </category-item>
-                </category>
-                <category name="工作经历">
-                    <category-item title="华为技术有限公司" subtitle="2015 - now ">
-                        <li>
-                            软件开发工程师，主要有前端，后端，以及运维部署方面的工作
-                        </li>
-                         <li>
-                            IDE插件开发，java swing为主要开发语言, 开发过Intellij插件
-                        </li>
-                        <li>
-                            Web端开发，java, ndoejs, golang, python等开发后端，angularjs，html，css,react,redux开发前端
-                        </li>
-                        <li>
-                           后台运维，ansible，terraform, docker swarm, kubernetes,linux来部署管理集群系统
-                        </li>
-
-                    </category-item>
-                </category>
-                <category name="项目工程">
-                    <category-item title="qeesung/image2ascii" subtitle="Convert image to ASCII" open=true url="http://github.com/qeesung/image2ascii">
-                        <li>提供将图片转化为ASCII阵列的类库和命令行工具，完善的文档和用例</li>
-                        <li>Testify自动化测试，Codacy自动化代码检查, Travis自动化构建，自动发布</li>
-                        <li><a href="http://github.com/qeesung/image2ascii">源码地址</a></li>
-                    </category-item>
-                    <category-item title="CodeFlow" subtitle="Pipeline as Code">
-                        <li>流水线即代码, 基于Jenkins的Pipeline，通过Push事件触发，拓展Jenkins，组合周边构建系统</li>
-                        <li>基于Jenkins，使用Express，Swagger开发后端Restful服务, Groovy拓展Jenkins Pipeline能力</li>
-                        <li><a href="http://github.com/qeesung/mq-pipeline-notifier-plugin">部分模块源码地址</a></li>
-                    </category-item>
-                    <category-item title="qeesung/HighlightBracketPair" subtitle="Highlight bracket pair plugin for intellij" open=true url="http://github.com/qeesung/HighlightBracketPair">
-                        <li>JetBrain 代码块括号高亮插件，支持多种IDE，包括IntelliJ IDEA, PhpStorm, WebStorm, PyCharm, RubyMine, AppCode, CLion, GoLand...</li>
-                        <li>支持多种语言，包括Java, Groovy, Kotlin, Scala, Haskell, Python, JavaScript, TypeScript, Golang, Ruby, Erlang, Rust, Html, Xml, Json, Css...</li>
-                        <li>插件已被发布到JetBrain<a href="http://plugins.jetbrains.com/plugin/10465-highlightbracketpair">插件仓库</a></li>
-                        <li><a href="http://github.com/qeesung/HighlightBracketPair">源码地址</a></li>
-                    </category-item> 
-                    <category-item title="qeesung/rocketchat-node" subtitle="JavaScript RocketChat API for node.js" open=true url="http://github.com/qeesung/rocketchat-node">
-                        <li>Nodejs <a href="http://github.com/qeesung/rocketchat-node">开源模块</a>,
-                         为<a href="https://rocket.chat/">Rocket.Chat</a>提供Nodejs调用库, 
-                         并发布到<a href="https://www.npmjs.com/package/rocketchat">NpmJS</a>
-                        </li>
-                        <li>支持ES6语法，Mocha自动化测试，Codacy自动化代码检查, Travis自动化构建，自动发布，Codacy自动化代码检查</li>
-                        <li><a href="http://github.com/qeesung/rocketchat-node">源码地址</a></li>
-                    </category-item>
-                    <category-item title="qeesung/asciiplayer" subtitle="ASCIIPlayer write in golang" open=true url="http://github.com/qeesung/asciiplayer">
-                        <li>提供命令行和类库将一个图片，GIF动图，视屏在终端播放，以及支持编码成对应的ASCII媒体，完善的文档和用例</li>
-                        <li>Testify自动化测试，Codacy自动化代码检查, Travis自动化构建，自动发布</li>
-                        <li><a href="http://github.com/qeesung/asciiplayer">源码地址</a></li>
-                    </category-item>
-                    <category-item title="DevMachine" subtitle="infrastructure as Code">
-                        <li>基础设施即代码，通过文件和命令行的形式生成machine，并提供Provision的功能</li>
-                        <li>基于Terraform，对接公司内部Cloud Vender，基于Golang语言开发Provider, 基于Python开发Provision脚本</li>
-                    </category-item>
-                </category>
-            </resume-column>
-        </resume-body>
-    </resume>
+				<category name="工作经历">
+				<category-item title="华为技术有限公司" subtitle="2015 - now ">
+					<li>
+						<strong>CloudBuild云构建系统</strong>
+						<ul>
+							<li>负责对整个<strong>BuildProject子系统</strong>的架构设计，系统选型工作, 如SpringBoot, Mybatis, Kafka, Redis...</li>
+							<li>负责对<strong>云构建脚本</strong>的的规范设计与实现<a href="https://qeesung.github.io/slides/cloudbuild/#1">(简单介绍)</a></li>
+							<li>负责对<strong>构建调度系统</strong>的设计与开发，其中包括全量源码构建BuildFlow，MR/Push构建，以及个人级构建（build-cli和intellij插件开发), 以及虚机，容器等构建资源的调度插件</li>
+							<li>负责对<strong>构建热加载插件build-action</strong>的方案设计和开发，基于Groovy动态加载指定版本插件，对插件进行热加载和版本管理</li>
+							<li>负责对<strong>构建调试系统</strong>的设计与开发，其中包括构建中的调试，以及构建后对构建环境还原的调试, 基于WebSocket对调试协议的设计</li>
+							<li>负责对接周边流水线系统，数据采集系统，健康检查系统, 邮件系统，代码仓服务等</li>
+							<li>负责对整个系统的性能调优, 如Redis缓存，WebSocket双向通信，Kafka多级延迟队列等</li>
+							<li>负责对整个BuildProject的监控系统的选型和搭建，其中包括Prometheus，Grafana, AlterManager等，对系统的业务指标尽心监控，比如任务排队时间等</li>
+						</ul>
+					</li>
+				</category-item>
+				</category>
+				<category name="项目工程">
+				<category-item title="qeesung/image2ascii" subtitle="Convert image to ASCII" open=true url="http://github.com/qeesung/image2ascii">
+					<li>提供将图片转化为ASCII阵列的类库和命令行工具，完善的文档和用例</li>
+					<li>Testify自动化测试，Codacy自动化代码检查, Travis自动化构建，自动发布</li>
+					<li><a href="http://github.com/qeesung/image2ascii">源码地址</a></li>
+				</category-item>
+				<category-item title="CodeFlow" subtitle="Pipeline as Code">
+					<li>流水线即代码, 基于Jenkins的Pipeline，通过Push事件触发，拓展Jenkins，组合周边构建系统</li>
+					<li>基于Jenkins，使用Express，Swagger开发后端Restful服务, Groovy拓展Jenkins Pipeline能力</li>
+					<li><a href="http://github.com/qeesung/mq-pipeline-notifier-plugin">部分模块源码地址</a></li>
+				</category-item>
+				<category-item title="qeesung/HighlightBracketPair" subtitle="Highlight bracket pair plugin for intellij" open=true url="http://github.com/qeesung/HighlightBracketPair">
+					<li>JetBrain 代码块括号高亮插件，支持多种IDE，包括IntelliJ IDEA, PhpStorm, WebStorm, PyCharm, RubyMine, AppCode, CLion, GoLand...</li>
+					<li>支持多种语言，包括Java, Groovy, Kotlin, Scala, Haskell, Python, JavaScript, TypeScript, Golang, Ruby, Erlang, Rust, Html, Xml, Json, Css...</li>
+					<li>插件已被发布到JetBrain<a href="http://plugins.jetbrains.com/plugin/10465-highlightbracketpair">插件仓库</a></li>
+					<li><a href="http://github.com/qeesung/HighlightBracketPair">源码地址</a></li>
+				</category-item> 
+				<category-item title="qeesung/rocketchat-node" subtitle="JavaScript RocketChat API for node.js" open=true url="http://github.com/qeesung/rocketchat-node">
+					<li>Nodejs <a href="http://github.com/qeesung/rocketchat-node">开源模块</a>,
+						为<a href="https://rocket.chat/">Rocket.Chat</a>提供Nodejs调用库, 
+						并发布到<a href="https://www.npmjs.com/package/rocketchat">NpmJS</a>
+					</li>
+					<li>支持ES6语法，Mocha自动化测试，Codacy自动化代码检查, Travis自动化构建，自动发布，Codacy自动化代码检查</li>
+					<li><a href="http://github.com/qeesung/rocketchat-node">源码地址</a></li>
+				</category-item>
+				<category-item title="qeesung/asciiplayer" subtitle="ASCIIPlayer write in golang" open=true url="http://github.com/qeesung/asciiplayer">
+					<li>提供命令行和类库将一个图片，GIF动图，视屏在终端播放，以及支持编码成对应的ASCII媒体，完善的文档和用例</li>
+					<li>Testify自动化测试，Codacy自动化代码检查, Travis自动化构建，自动发布</li>
+					<li><a href="http://github.com/qeesung/asciiplayer">源码地址</a></li>
+				</category-item>
+				<category-item title="DevMachine" subtitle="infrastructure as Code">
+					<li>基础设施即代码，通过文件和命令行的形式生成machine，并提供Provision的功能</li>
+					<li>基于Terraform，对接公司内部Cloud Vender，基于Golang语言开发Provider, 基于Python开发Provision脚本</li>
+				</category-item>
+				</category>
+			</resume-column>
+		</resume-body>
+		</resume>
 
 
-</body></html>
+	</body></html>
