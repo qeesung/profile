@@ -17,6 +17,7 @@ angular.module('Resume', ['ngMaterial'])
     phone: '@',
     email: '@',
     github: '@',
+    school: '@',
     linkedin: '@'
   },
   template: `<div class="header">
