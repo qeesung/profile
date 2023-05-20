@@ -17,7 +17,7 @@ angular.module('Resume', ['ngMaterial'])
     phone: '@',
     email: '@',
     github: '@',
-    school: '@',
+    university: '@',
     linkedin: '@'
   },
   template: `<div class="header">
@@ -38,8 +38,8 @@ angular.module('Resume', ['ngMaterial'])
       <a ng-if="r.github" class="md-subhead page-subhead" ng-href="https://github.com/{{r.github}}" target="_blank">
         <i class="fa fa-lg fa-github"></i>{{r.github}}
       </a>
-      <span ng-if="r.school" class="md-subhead page-subhead">
-        <i class="fa fa-lg fa-school"></i>{{r.school}}
+      <span ng-if="r.university" class="md-subhead page-subhead">
+        <i class="fa fa-lg fa-university"></i>{{r.university}}
       </span>
       <a ng-if="r.linkedin" class="md-subhead page-subhead" ng-href="https://linkedin.com/in/{{r.linkedin}}" target="_blank">
         <i class="fa fa-lg fa-linkedin-square"></i>{{r.linkedin}}
